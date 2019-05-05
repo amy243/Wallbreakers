@@ -1,9 +1,5 @@
 class Solution(object):
     def flipAndInvertImage(self, A):
-        """
-        :type A: List[List[int]]
-        :rtype: List[List[int]]
-        """
         for i in A:
             for j in range(int(len(i)/2)):
                 a=i[j]
