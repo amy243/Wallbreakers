@@ -1,3 +1,8 @@
+'''
+Given a lower and upper number bound, output a list of every possible self dividing number, including the bounds if possible.
+link:https://leetcode.com/problems/self-dividing-numbers
+'''
+
 class Solution(object):
     def selfDividingNumbers(self, left, right):
         y=[]
