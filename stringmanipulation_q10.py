@@ -12,16 +12,16 @@ class Solution(object):
                 if i.isupper():
                     t+=1
             if t==1 or t==len(word):
-                return('true')
+                return(True)
             else:
-                return('false')
+                return(False)
         else:
             for i in word[1:]:
                 if i.islower():
                     t+=1
             if t==len(word):
-                return('true')
+                return(True)
             else:
-                return('false')
+                return(False)
 
 
